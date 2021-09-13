@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Merriweather';
+  src: local('Merriweather Regular'), local('Merriweather-Regular'), local('Merriweather'),
+    url('/fonts/merriweather-12ptregular-typeofweb.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: local('Merriweather Italic'), local('Merriweather-Italic'), local('Merriweather'),
+    url('/fonts/merriweather-12ptitalic-typeofweb.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: local('Merriweather Bold'), local('Merriweather-Bold'), local('Merriweather'),
+    url('/fonts/merriweather-12ptbold-typeofweb.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: local('Merriweather Bold Italic'), local('Merriweather-Bold-Italic'), local('Merriweather'),
+    url('/fonts/merriweather-12ptbolditalic-typeofweb.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: local('FiraSans Regular'), local('FiraSans-Regular'), local('Fira Sans Regular'), local('Fira-Sans-Regular'),
+    local('Fira Sans'), local('Fira-Sans'), url('/fonts/firasans-regular-typeofweb.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: local('FiraSans Semibold'), local('FiraSans-Semibold'), local('Fira Sans Semibold'), local('Fira-Sans-Semibold'),
+    local('Fira Sans'), local('Fira-Sans'), url('/fonts/firasans-semibold-typeofweb.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Mono';
+  src: local('FiraMono Regular'), local('FiraMono-Regular'), local('Fira Mono Regular'), local('Fira-Mono-Regular'),
+    local('Fira Mono'), url('/fonts/firamono-regular-typeofweb.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,13 @@
+import { Meta, Story } from '@storybook/addon-docs';
+
+import { Button } from './Button';
+
+<Meta title="atoms/Button" component={Button} />
+
+export const Template = (args) => <Button {...args}>Button</Button>;
+
+<!-- 👇 The args you need here will depend on your component -->
+
+<Story name="Button" args={{}}>
+  {Template.bind({})}
+</Story>

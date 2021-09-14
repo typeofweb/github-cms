@@ -1,5 +1,7 @@
-import { AppType } from 'next/dist/shared/lib/utils';
 import Head from 'next/head';
+import { RecoilRoot } from 'recoil';
+
+import type { AppType } from 'next/dist/shared/lib/utils';
 
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
@@ -7,7 +9,9 @@ const MyApp: AppType = ({ Component, pageProps }) => {
       <Head>
         <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, viewport-fit=cover" />
       </Head>
-      <Component {...pageProps} />
+      <RecoilRoot>
+        <Component {...pageProps} />
+      </RecoilRoot>
     </>
   );
 };

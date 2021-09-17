@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 
-import { useGetListOfDataType } from '../../../cms/storage/github';
+import { parseDataTypeFileContent, useGetListOfDataType } from '../../../cms/storage/github';
 import { config } from '../../../config';
 
 export const DataTypeList = () => {
@@ -14,7 +14,9 @@ export const DataTypeList = () => {
   return (
     <ul>
       {data?.map((d) => (
-        <li key={d.sha}>{d.name}</li>
+        <li key={d.sha}>
+          <pre>{JSON.stringify(parseDataTypeFileContent(d), null, 2)}</pre>
+        </li>
       ))}
     </ul>
   );

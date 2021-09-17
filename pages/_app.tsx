@@ -13,6 +13,7 @@ const queryClient = new QueryClient({
     queries: {
       cacheTime: Ms('7 days'),
       staleTime: Ms('24 hours'),
+      retry: false,
     },
   },
 });

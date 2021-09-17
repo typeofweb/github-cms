@@ -12,6 +12,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pl-PL" dir="ltr">
         <Head>
+          <meta charSet="utf-8" />
           <link
             rel="preload"
             as="font"

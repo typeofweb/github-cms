@@ -2,7 +2,7 @@ import { polishPlurals } from 'polish-plurals';
 
 export const config: Config = {
   repo: 'typeofweb.com',
-  owner: 'typeofweb',
+  owner: 'mmiszy',
   dataTypes: [
     {
       id: 'posts',
@@ -10,7 +10,7 @@ export const config: Config = {
       i18n: {
         quantity: (n: number) => polishPlurals('artykuł', 'artykuły', 'artykułów', n),
       },
-      path: '/_posts',
+      path: '/_posts/2021/09',
     },
   ],
 };
